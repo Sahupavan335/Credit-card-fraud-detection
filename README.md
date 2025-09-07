@@ -84,6 +84,7 @@ The dataset is highly imbalanced, with fraudulent transactions representing less
 
 - LinkedIn: https://www.linkedin.com/in/sahu-pavan-a01633266?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B14071aPIRgSZ8wWfAd3%2FPw%3D%3D
 
-- GitHub: 
+- GitHub: https://github.com/Sahupavan335
+
 
 
