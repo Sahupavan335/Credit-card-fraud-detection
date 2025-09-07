@@ -1,18 +1,18 @@
 # 💳 Credit Card Fraud Detection
 
-## 📝 1. Project Title
+## 1. Project Title
 Credit Card Fraud Detection using Machine Learning
 
-## 📌 2. Brief One-Line Summary
+## 2. Brief One-Line Summary
 A machine learning-based system to detect fraudulent credit card transactions using anonymized financial data.
 
-## 📖 3. Overview
+## 3. Overview
 Credit card fraud is a major financial crime, causing significant losses to banks and customers. This project applies supervised machine learning algorithms to detect fraudulent transactions based on anonymized transaction attributes. The goal is to build a robust classification system that can handle imbalanced datasets and provide accurate fraud detection.
 
-## ❓ 4. Problem Statement
+## 4. Problem Statement
 The dataset is highly imbalanced, with fraudulent transactions representing less than 1% of the total. The challenge is to identify frauds effectively while minimizing false positives.
 
-## 📊 5. Dataset
+## 5. Dataset
 - **Source:** Kaggle (Credit Card Fraud Detection Dataset 2023)  
 - **Records:** ~550,000 transactions by European cardholders  
 - **Features:**  
@@ -20,33 +20,33 @@ The dataset is highly imbalanced, with fraudulent transactions representing less
   - `Amount`: Transaction amount  
   - `Class`: Target label (0 = Legitimate, 1 = Fraudulent)
 
-## 🛠️ 6. Tools and Technologies
+## 6. Tools and Technologies
 - **Programming Language:** Python  
 - **Libraries:** pandas, numpy, scikit-learn, lightgbm, streamlit, pickle  
 - **Environment:** Jupyter Notebook, Streamlit web app  
 - **Version Control:** Git, GitHub  
 
-## ⚙️ 7. Methods
+## 7. Methods
 1. Data preprocessing (scaling, handling imbalance)  
 2. Model training using:  
    - RandomForestClassifier  
    - LightGBMClassifier  
 3. Model evaluation using precision, recall, F1-score, ROC-AUC  
-4. Deployment of prediction app with Streamlit  
+4. Deployment of prediction app with Streamlit and Flask
 
-## 🔑 8. Key Insights
-- Fraudulent transactions are extremely rare (~0.1–0.2%).  
+## 8. Key Insights
+- Fraudulent transactions are extremely rare (~0.1 – 0.2%).  
 - LightGBM performed slightly better in handling class imbalance compared to RandomForest.  
 - Transaction amount and certain V-features strongly correlate with fraud cases.  
 
-## 📊 9. Dashboard / Model / Output
+## 9. Dashboard / Model / Output
 - **Streamlit App**: Interactive web application for predicting fraud.  
 - **Features**:  
   - Single transaction input  
   - CSV file upload (supports large files up to ~400MB)  
   - Downloadable results with predictions & probabilities  
 
-## 🚀 10. How to Run this Project?
+## 10. How to Run this Project?
 1. Clone this repository  
    ```bash
    git clone https://github.com/your-username/credit-card-fraud-detection.git
@@ -61,11 +61,11 @@ The dataset is highly imbalanced, with fraudulent transactions representing less
 
 ## 11. Result & Conclusion
 
-The models achieved high ROC-AUC (>0.95) despite class imbalance.
+- The models achieved high ROC-AUC (>0.95) despite class imbalance.
 
-LightGBM gave better recall (important for fraud detection) while RandomForest provided balanced performance.
+- LightGBM gave better recall (important for fraud detection) while RandomForest provided balanced performance.
 
-A deployed Streamlit app allows real-time and batch predictions.
+- A deployed Streamlit app and Flask app allows real-time and batch predictions.
 
 ## 12. Future Work
 
@@ -82,7 +82,8 @@ A deployed Streamlit app allows real-time and batch predictions.
 - Author: Sahu Pavan
 - Email: sahupavan335@gmail.com
 
-- LinkedIn: linkedin.com/in/sahu-pavan-a01633266
+- LinkedIn: https://www.linkedin.com/in/sahu-pavan-a01633266?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B14071aPIRgSZ8wWfAd3%2FPw%3D%3D
 
 - GitHub: 
+
 
